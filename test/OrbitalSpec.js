@@ -7,22 +7,22 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-import { expect } from "chai";
-import jsdom from "mocha-jsdom";
-import Orbital from "../src/Orbital";
+import { expect, describe, it } from 'chai';
+import jsdom from 'mocha-jsdom';
+import Orbital from '../src/Orbital';
 
-describe("Orbital", () => {
+describe('Orbital', () => {
   jsdom();
 
-  it("should verify input parameters.", () => {
+  it('should verify input parameters.', () => {
     expect(() => Orbital()).to.throw(
-      "Orbital's first parameter must be an element selector."
+      "Orbital's first parameter must be an element selector.",
     );
   });
 
-  it("should bind to the element selected.", () => {
+  it('should bind to the element selected.', () => {
     expect(() => Orbital()).to.throw(
-      "Orbital's first parameter must be an element selector."
+      "Orbital's first parameter must be an element selector.",
     );
   });
 });

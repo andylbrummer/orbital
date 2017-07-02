@@ -6,8 +6,7 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE.txt file in the root directory of this source tree.
  */
-
-'use strict';
+/* eslint-disable import/no-extraneous-dependencies */
 
 const fs = require('fs');
 const del = require('del');

@@ -7,8 +7,9 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-export default (selector, config) => {
-  if (!selector)
+export default (selector) => {
+  if (!selector) {
     throw new Error("Orbital's first parameter must be an element selector.");
-  return "orbital";
-}
+  }
+  return 'orbital';
+};
